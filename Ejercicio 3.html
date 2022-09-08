@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+
+<body>
+
+
+    <fieldset>
+        <form action="">
+            <legend>
+                <h2> Indique: </h2>
+            </legend>
+
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre" required>
+
+            <label for=" apellido">Apellido:</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Ingrese su apellido" required>
+            <br>
+            <br>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" name="fecha" id="" required>
+            <br>
+            <br>
+            Consulta: <textarea name="comentario" rows="10" cols="40">Por favor, escribe aqui tu consulta...</textarea>
+            <br>
+            <br>
+            <en>Indique el dispositivo electronico que utiliza actualmente:</en><br>
+            <select name="dispositivoelectronico" required>
+                <option value="computadora">Computadora</option>
+                <option value="celular">Celular</option>
+                <option value="otro">Otro dispositivo</option>
+            </select>
+            <br>
+            <br>
+            <en>Indique el entorno de desarrollo que utiliza actualmente:</en><br>
+            <input type="radio" name="opcion" value="1">Visual Studio Code
+            <input type="radio" name="opcion" value="2"> Webstorm
+            <input type="radio" name="opcion" value="3">NetBeans
+            <input type="radio" name="opcion" value="4">Aptana Studio
+            <br>
+            <br>
+            <en>Indique las materias que cursa actualmente:</en><br>
+            <input type="checkbox" name="opcion" value="1">Programacion
+            <br>
+            <input type="checkbox" name="opcion" value="2">Redes
+            <br>
+            <input type="checkbox" name="opcion" value="3">Derecho laboral
+            <br>
+            <input type="checkbox" name="opcion" value="4">Gestion de proyectos
+            <br>
+            <input type="checkbox" name="opcion" value="5">Practica profecionalizante
+            <br>
+            <input type="checkbox" name="opcion" value="6">Problematicas socio-contemporaneas
+            <br>
+            <br>
+            <label>Elija un fichero: </label>
+            <input type="file" name="fichero" id="">
+            <br>
+            <br>
+            <label>Elija su color favorito: </label>
+            <input type="color" required>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <br>
+            <input type="reset" value="Limpiar datos">
+        </form>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <form action="">
+            <legend>
+                <h2> Preferencias y otros datos: </h2>
+            </legend>
+            <label>Elija su turno: </label>
+            <select name="Turno" size="3" required>
+                <option value="mañana">Mañana</option>
+                <option value="tarde">Tarde</option>
+                <option value="noche">Noche</option>
+            </select>
+            <br>
+            <br>
+            <p>Elija una hora: <input type="time" name="hora" required>
+                <br>
+                <br>
+                <label for="dni">DNI</label>
+                <input type="number" name="dni_usuario" id="dni" value="00000000" placeholder="Ingrese su DNI:"
+                    required>
+                <br>
+                <br>
+                <label for="email">Correo</label>
+                <input type="email" name="email" placeholder="Ingrese su correo:" required>
+                <br>
+                <br>
+                <label for="Telefono">Telefono</label>
+                <input type="number" name="Telefono" id="Telefono" placeholder="Ingrese su telefono:" required>
+                <br>
+                <br>
+                <label>Foto de perfil</label>
+                <input type="file" name="foto" id="">
+                <br>
+                <br>
+                <en>Indique su materia favorita:</en><br>
+                <input type="radio" name="opcion" value="1">Programacion
+                <input type="radio" name="opcion" value="2">Redes
+                <input type="radio" name="opcion" value="3">Derecho laboral
+                <input type="radio" name="opcion" value="4">Gestion de proyectos
+                <input type="radio" name="opcion" value="5">Practica profecionalizante
+                <input type="radio" name="opcion" value="6">Problematicas socio-contemporaneas
+                <input type="radio" name="opcion" value="7">Otra materia
+                <br>
+                <br>
+                <textarea name="comentario" rows="10"
+                    cols="40">En el caso de haber elegido otra materia especifique cual...</textarea>
+                <br>
+                <br>
+                <input type="submit" value="Enviar">
+                <br>
+                <input type="reset" value="Limpiar datos">
+
+        </form>
+    </fieldset>
+
+</body>
+
+</html>
